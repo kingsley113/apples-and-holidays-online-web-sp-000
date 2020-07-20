@@ -87,7 +87,7 @@ def all_supplies_in_holidays(holiday_hash)
         holiday = holiday_key.to_s.split('_')    #capitalize!   #.collect {}
         holiday.collect {|word| word.capitalize!}
 
-        holiday.join(' ').to_s
+        holiday.join(' ')
       #if holiday_key == :new_years
         #binding.pry
       #end
