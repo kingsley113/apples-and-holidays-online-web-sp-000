@@ -91,7 +91,7 @@ def all_supplies_in_holidays(holiday_hash)
       #if holiday_key == :new_years
         #binding.pry
       #end
-      #binding.pry
+      binding.pry
       puts "  #{holiday}: #{supplies_value.join(", ")}"
       #binding.pry
     end
