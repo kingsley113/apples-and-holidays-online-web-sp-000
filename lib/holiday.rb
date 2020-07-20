@@ -88,9 +88,9 @@ def all_supplies_in_holidays(holiday_hash)
         #binding.pry
         holiday.collect {|word| word.capitalize!}
 #binding.pry
-        holiday.join(' ')
-      binding.pry
-      puts "  #{holiday}: #{supplies_value.join(", ")}"
+        #holiday.join(" ")
+      #binding.pry
+      puts "  #{holiday.join(" ")}: #{supplies_value.join(", ")}"
       #binding.pry
     end
   end
