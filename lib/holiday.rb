@@ -92,7 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
         #binding.pry
       #end
       puts "  #{holiday}: #{supplies_value.join(", ")}"
-      #binding.pry
+      binding.pry
     end
   end
 end
